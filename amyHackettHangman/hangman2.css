@@ -1,0 +1,32 @@
+.container {
+    font-family: gotham, helvetica, arial, serif;
+    padding-left: 20%;
+    padding-top: 7%;
+
+}
+
+h1 {
+    font-family: "Gotham Black", helvetica, arial, serif;
+
+}
+
+#guess {
+    font-size: 1.5em;
+}
+
+#mainImage {
+    float:right
+}
+
+body {
+    background-color: skyblue;
+}
+
+button {
+    font-family: gotham, helvetica, arial, serif;
+    background-color:  #d7d8df;
+    border: #d7d8df 3px solid;
+    font-weight: bold;
+    border-radius: 5px;
+
+}

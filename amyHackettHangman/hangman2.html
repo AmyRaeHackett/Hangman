@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel = "stylesheet" type = "text/css" href = "hangman2.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src = "hangman.js" defer></script>
+
+
+</head>
+<body>
+<div class = "pagelayout">
+    <img src = "hangman1.png" id = "mainImage">
+
+    <div class = "container">
+        <h1>Hangman game!</h1>
+        <p id = "guess">Guess a letter below:</p>
+
+
+        <label for="textBox"></label><input type = "text" id = "textBox" name = "textBox" minlength="1" maxlength="1">
+        <button id = "submitButton" name = "submitButton" value = "Guess">Guess</button>
+
+
+        <p id = "user"></p>
+        <p id = "guessesleft"></p>
+        <p id = "message"></p>
+
+
+
+
+        <button id = "hintButton" name = "hintButton" value = "Hint">Click here for a hint...</button>
+        <p id = "hintMessage"></p>
+
+        <p><b>Used letters:</b></p>
+        <p id = "usedLetters"> </p>
+    </div>
+</div>
+
+
+
+</body>
+</html>
